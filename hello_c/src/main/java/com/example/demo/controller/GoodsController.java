@@ -4,12 +4,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class BoardContoller {
+public class GoodsController {
 
-	@GetMapping("/listBoard")
-	public String listBoard() {
-		System.out.println("2");
-		System.out.println("1");
-		return "게시물 목록";
+	@GetMapping("/listgoods")
+	public String listGoods() {
+		return "상품목록";
+	
 	}
 }
