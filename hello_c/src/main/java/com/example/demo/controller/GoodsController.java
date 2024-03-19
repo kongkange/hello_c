@@ -9,5 +9,6 @@ public class GoodsController {
 	@GetMapping("/listgoods")
 	public String listGoods() {
 		return "상품목록";
+	
 	}
 }
